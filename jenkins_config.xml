@@ -13,8 +13,8 @@
   <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
   <jdks>
     <jdk>
-      <name>Oracle JDK 1.7.0_76</name>
-      <home>/usr/java/jdk1.7.0</home>
+      <name>Oracle JDK 1.8.0</name>
+      <home>/usr/java/jdk1.8.0</home>
       <properties/>
     </jdk>
   </jdks>
@@ -45,9 +45,11 @@
           <default>
             <comparator class="hudson.util.CaseInsensitiveComparator"/>
           </default>
-          <int>1</int>
+          <int>2</int>
           <string>BASE_GRADLE_USER_HOME</string>
           <string>/var/lib/jenkins/build</string>
+          <string>DEPLOY_USER_NAME</string>
+          <string>deployment</string>
         </tree-map>
       </envVars>
     </hudson.slaves.EnvironmentVariablesNodeProperty>

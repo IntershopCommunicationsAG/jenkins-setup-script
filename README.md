@@ -3,13 +3,14 @@
 * CentOS 7
 
 * Install JDK 
-> https://github.com/IntershopCommunicationsAG/setup_oracle_jdk17
+> https://github.com/IntershopCommunicationsAG/setup_oracle_jdk18
 
 * Install VCS
 > https://github.com/IntershopCommunicationsAG/setup_vcs_client
     
-* Create Sources From Intershop Templates (https://support.intershop.com/kb/index.php/Display/L26224, Cookbook - Setup CI Infrastructure)
-> https://github.com/IntershopCommunicationsAG/ci-setup
+* Create Sources From Intershop Templates (Recipe 5) (https://support.intershop.com/kb/index.php/Display/X27327, Cookbook - Setup CI Infrastructure)
+
+* Set Up Project Based on the Responsive Starter Store (Recipe 6) (https://support.intershop.com/kb/index.php/Display/X27327, Cookbook - Setup CI Infrastructure)
 
 * Intershop 7 developer license
 
@@ -31,7 +32,7 @@
 
 > Name: "DEPLOY_USER_PASSWORD"
 
-> Password: e.g., "admin123"
+> Password: e.g., "deployment123"
     
 * Configure your email notification settings: <code>http://JENKINS_IP:8080/configure</code>
 
